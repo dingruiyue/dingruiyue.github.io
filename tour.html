@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -146,4 +147,154 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tours</title>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<!--web-font-->
+<link href='http://fonts.useso.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+<!--//web-font-->
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Excursion Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="https://ajax.useso.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+</head>
+<body>
+	<!--navigation-->
+	<div class="top-nav">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-left">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="gallery.html">自我介绍</a></li>
+						<li><a href="tour.html" class="active">项目</a></li>
+						<li><a href="testimonial.html">联系我</a></li>
+					</ul>	
+					<div class="clearfix"> </div>
+				</div>
+			</div>	
+		</nav>		
+	</div>	
+	<!--navigation-->
+	<div class="tour">
+		<div class="container">
+			<ol class="breadcrumb">
+				<li><a href="index.html">首页</a></li>
+				<li>项目</li>
+			</ol>
+			<div class="tesimonial"><h3>项目</h3></div>
+			<div class="row tour-info">			
+				<div class="col-sm-6 col-md-4 tour-grids">
+					<div class="thumbnail">
+						<img src="images/img23.jpg" class="img-responsive zoom-img " alt="">
+						<div class="caption tour-caption">
+							<h3><a href="#">项目一</a></h3>		
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 tour-grids">
+					<div class="thumbnail">
+						<img src="images/img24.jpg" class="img-responsive zoom-img " alt="">
+						<div class="caption tour-caption">
+							<h3><a href="#">项目二</a></h3>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-6 col-md-4 tour-grids">
+					<div class="thumbnail">
+						<img src="images/img25.jpg" class="img-responsive zoom-img" alt="">	
+						<div class="caption tour-caption">
+							<h3><a href="#">项目三</a></h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 tour-grids">
+					<div class="thumbnail">
+						<img src="images/img26.jpg" class="img-responsive zoom-img" alt="">
+						<div class="caption tour-caption">
+							<h3><a href="#">项目四</a></h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 tour-grids">
+					<div class="thumbnail">
+						<img src="images/img27.jpg" class="img-responsive zoom-img" alt="">
+						<div class="caption tour-caption">
+							<h3><a href="#">项目五</a></h3>				
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 tour-grids">
+					<div class="thumbnail">
+						<img src="images/img28.jpg" class="img-responsive zoom-img" alt="">
+						<div class="caption tour-caption">
+							<h3><a href="#">项目六</a></h3>			
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>	
+	<!--smooth-scrolling-of-move-up-->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+				var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+				};
+				*/
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+		<!-- <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+>>>>>>> 63673571f0b1ef16a108151baad05d05a7a5500f
 </html>
